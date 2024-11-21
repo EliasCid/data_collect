@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-collect-env"
+version = "0.1.0"
+description = ""
+authors = ["Elias Cid <ecp1594@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+tqdm = "^4.67.0"
+pandas = "^2.2.3"
+pyarrow = "^18.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
